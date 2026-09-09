@@ -479,3 +479,61 @@ input[type=range] {
   filter: drop-shadow(0 2px 6px rgba(245, 158, 11, 0.35));
   letter-spacing: 0.02em;
 }
+
+/* ==========================================================================
+   MOBILE RESPONSIVE ENHANCEMENTS - NHÀ GA VÀNG
+   ========================================================================== */
+
+@media (max-width: 640px) {
+  /* Tối ưu hóa bảng giao dịch trên màn hình điện thoại */
+  .trading-table th {
+    padding: 10px 6px !important;
+    font-size: 0.6875rem !important;
+    letter-spacing: 0.02em !important;
+  }
+
+  .trading-table td {
+    padding: 8px 5px !important;
+    font-size: 0.75rem !important;
+  }
+
+  .table-pill {
+    padding: 2px 7px !important;
+    font-size: 0.6875rem !important;
+    height: 23px !important;
+    line-height: 23px !important;
+  }
+
+  .pill-total-pips-win, .pill-total-pips-loss {
+    font-size: 0.8125rem !important;
+    padding: 3px 8px !important;
+    height: 26px !important;
+  }
+
+  /* Tối ưu hóa các thẻ card trên điện thoại */
+  .gold-card {
+    border-radius: 14px !important;
+  }
+
+  /* Thanh trượt bảng mượt mà trên cảm ứng */
+  .overflow-x-auto {
+    -webkit-overflow-scrolling: touch !important;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+  }
+
+  /* Dropdown option chữ rõ ràng trên mobile */
+  select {
+    font-size: 13px !important;
+  }
+}
+
+/* Hide scrollbar for clean horizontal touch strips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
