@@ -589,46 +589,49 @@
   </div>
 
   <!-- 4. LEGAL DISCLAIMER MODAL -->
-  <div id="legalModal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-sm flex items-center justify-center p-4 hidden">
-    <div class="bg-slate-900 border border-amber-500/40 rounded-2xl max-w-2xl w-full p-6 max-h-[90vh] overflow-y-auto">
+  <div id="legalModal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4 hidden">
+    <div class="bg-slate-900 border border-amber-500/40 rounded-2xl max-w-2xl w-full flex flex-col max-h-[85vh] sm:max-h-[85vh] shadow-2xl overflow-hidden">
       
-      <div class="flex items-center justify-between pb-4 border-b border-slate-800">
-        <h3 class="text-lg font-bold text-amber-400 flex items-center gap-2">
-          <span>⚖️</span> TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM PHÁP LÝ TOÀN VĂN
+      <!-- Fixed Sticky Header (Always visible, never cut off on mobile) -->
+      <div class="flex items-center justify-between p-4 sm:p-5 border-b border-slate-800 shrink-0 bg-slate-900">
+        <h3 class="text-sm sm:text-base font-bold text-amber-400 flex items-center gap-2">
+          <span class="text-base sm:text-lg">⚖️</span>
+          <span>TUYÊN BỐ MIỄN TRỪ TRÁCH NHIỆM PHÁP LÝ</span>
         </h3>
-        <button onclick="closeLegalModal()" class="text-slate-400 hover:text-white text-xl font-bold p-1">✕</button>
+        <button onclick="closeLegalModal()" class="w-8 h-8 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white flex items-center justify-center text-lg font-bold transition shrink-0" aria-label="Đóng">✕</button>
       </div>
 
-      <div class="space-y-4 my-6 text-xs text-slate-300 leading-relaxed">
-        <div class="p-4 rounded-xl bg-slate-950/60 border border-slate-800">
+      <!-- Scrollable Body with smooth touch momentum -->
+      <div class="p-4 sm:p-6 overflow-y-auto space-y-3 sm:space-y-4 text-xs text-slate-300 leading-relaxed overscroll-contain">
+        <div class="p-3.5 sm:p-4 rounded-xl bg-slate-950/60 border border-slate-800">
           <h4 class="font-bold text-white mb-1">1. Mục Đích Nghiên Cứu & Thống Kê Kỹ Thuật</h4>
           <p class="text-slate-400">
             Mọi số liệu, đồ thị, tỷ lệ thắng và kết quả pips trên website "Nhà Ga Vàng" được ghi nhận trung thực từ nhật ký kiểm thử và chạy thực tế của thuật toán chỉ báo kỹ thuật theo xu hướng. Toàn bộ thông tin được cung cấp với mục đích tham khảo, nghiên cứu kỹ thuật và hỗ trợ cộng đồng hiểu rõ phương pháp quản lý vốn.
           </p>
         </div>
 
-        <div class="p-4 rounded-xl bg-slate-950/60 border border-slate-800">
+        <div class="p-3.5 sm:p-4 rounded-xl bg-slate-950/60 border border-slate-800">
           <h4 class="font-bold text-white mb-1">2. Tuyên Bố Không Phải Lời Khuyên Tài Chính (Not Financial Advice)</h4>
           <p class="text-slate-400">
             Nội dung trên website KHÔNG PHẢI và KHÔNG ĐƯỢC HIỂU LÀ lời khuyên đầu tư tài chính cá nhân, không phải lời kêu gọi góp vốn, không nhận quản lý tài khoản ủy thác và không huy động bất kỳ dòng tiền nào. Chúng tôi không hoạt động như một công ty quản lý quỹ hay tổ chức tín dụng.
           </p>
         </div>
 
-        <div class="p-4 rounded-xl bg-slate-950/60 border border-slate-800">
+        <div class="p-3.5 sm:p-4 rounded-xl bg-slate-950/60 border border-slate-800">
           <h4 class="font-bold text-white mb-1">3. Cảnh Báo Rủi Ro Đòn Bẩy Thị Trường (Risk Warning)</h4>
           <p class="text-slate-400">
             Giao dịch Vàng (XAU/USD) và các công cụ tài chính có sử dụng đòn bẩy ký quỹ (Margin) tiềm ẩn mức độ biến động thị trường rất lớn và có rủi ro thua lỗ vốn. Nhà đầu tư chỉ nên tham gia với số vốn nhàn rỗi trong giới hạn chấp nhận rủi ro và phải luôn tuân thủ nguyên tắc quản trị rủi ro nghiêm ngặt (Stop Loss).
           </p>
         </div>
 
-        <div class="p-4 rounded-xl bg-slate-950/60 border border-slate-800">
+        <div class="p-3.5 sm:p-4 rounded-xl bg-slate-950/60 border border-slate-800">
           <h4 class="font-bold text-white mb-1">4. Hiệu Suất Quá Khứ & Cam Kết Tương Lai</h4>
           <p class="text-slate-400">
             Hiệu suất giao dịch trong quá khứ không phải là sự đảm bảo hoặc cam kết cho kết quả trong tương lai. Thị trường luôn tiềm ẩn các biến động bất ngờ từ tin tức kinh tế vĩ mô toàn cầu.
           </p>
         </div>
 
-        <div class="p-4 rounded-xl bg-slate-950/60 border border-slate-800">
+        <div class="p-3.5 sm:p-4 rounded-xl bg-slate-950/60 border border-slate-800">
           <h4 class="font-bold text-white mb-1">5. Trách Nhiệm Quyết Định Của Nhà Đầu Tư</h4>
           <p class="text-slate-400">
             Mỗi cá nhân tự chịu trách nhiệm 100% đối với mọi quyết định vào lệnh và kết quả trên tài khoản cá nhân của chính mình.
@@ -636,8 +639,12 @@
         </div>
       </div>
 
-      <div class="flex justify-end pt-4 border-t border-slate-800">
-        <button onclick="closeLegalModal()" class="gold-btn px-6 py-2 rounded-xl text-xs">Tôi Đã Hiểu & Đồng Ý</button>
+      <!-- Fixed Sticky Footer (Always visible at bottom, 1-tap accessible!) -->
+      <div class="p-3.5 sm:p-4 border-t border-slate-800 shrink-0 bg-slate-900 flex items-center justify-between sm:justify-end gap-3">
+        <span class="text-[11px] text-slate-400 hidden sm:inline">Vui lòng đọc kỹ trước khi tham khảo</span>
+        <button onclick="closeLegalModal()" class="w-full sm:w-auto gold-btn px-6 py-2.5 rounded-xl text-xs font-bold shadow-lg shadow-amber-500/20 active:scale-95 transition">
+          ✓ Tôi Đã Hiểu & Đồng Ý
+        </button>
       </div>
 
     </div>

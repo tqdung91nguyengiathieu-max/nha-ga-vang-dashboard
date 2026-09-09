@@ -615,11 +615,21 @@ window.downloadShareCard = function() {
 
 // 9. LEGAL MODAL
 window.openLegalModal = function() {
-  document.getElementById('legalModal').classList.remove('hidden');
+  const modal = document.getElementById('legalModal');
+  if (modal) {
+    modal.classList.remove('hidden');
+    const scrollContainer = modal.querySelector('.overflow-y-auto');
+    if (scrollContainer) {
+      scrollContainer.scrollTop = 0;
+    }
+  }
 };
 
 window.closeLegalModal = function() {
-  document.getElementById('legalModal').classList.add('hidden');
+  const modal = document.getElementById('legalModal');
+  if (modal) {
+    modal.classList.add('hidden');
+  }
 };
 
 // 10. HELPER DATE FORMAT

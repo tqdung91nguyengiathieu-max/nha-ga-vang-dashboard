@@ -537,3 +537,11 @@ input[type=range] {
   scrollbar-width: none;
 }
 
+/* Smooth Modal & Sheet Scrolling for Mobile */
+.overscroll-contain {
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+
