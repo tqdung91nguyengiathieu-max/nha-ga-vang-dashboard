@@ -201,7 +201,7 @@
     <div class="gold-card p-3.5 sm:p-6">
       
       <!-- Table Header & Controls -->
-      <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3 sm:gap-4 pb-4 sm:pb-6 border-b border-amber-500/20">
+      <div class="flex flex-col xl:flex-row xl:items-center justify-between gap-3 sm:gap-4 pb-4 sm:pb-6 border-b border-amber-500/20">
         <div>
           <div class="flex items-center gap-2">
             <span class="text-lg sm:text-xl">📋</span>
@@ -214,19 +214,19 @@
         </div>
 
         <!-- Filters Bar -->
-        <div class="flex flex-col sm:flex-row sm:items-center gap-2 text-xs w-full lg:w-auto">
-          <!-- Day Quick Filter (Scrollable on mobile) -->
-          <div class="flex items-center gap-1 bg-slate-900 border border-slate-800 rounded-lg p-1 overflow-x-auto w-full sm:w-auto no-scrollbar">
+        <div class="flex flex-wrap items-center gap-2.5 text-xs w-full xl:w-auto">
+          <!-- Day Quick Filter (shrink-0 ensures T6 is never compressed or clipped on PC) -->
+          <div class="flex items-center gap-1 bg-slate-900 border border-slate-800 rounded-lg p-1 shrink-0 whitespace-nowrap">
             <button data-day="ALL" class="filter-day-btn px-2.5 py-1 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40 font-semibold transition shrink-0">Tất Cả</button>
-            <button data-day="T2" class="filter-day-btn px-2.5 py-1 rounded text-slate-400 hover:text-white font-semibold transition shrink-0">T2</button>
-            <button data-day="T3" class="filter-day-btn px-2.5 py-1 rounded text-slate-400 hover:text-white font-semibold transition shrink-0">T3</button>
-            <button data-day="T4" class="filter-day-btn px-2.5 py-1 rounded text-slate-400 hover:text-white font-semibold transition shrink-0">T4</button>
-            <button data-day="T5" class="filter-day-btn px-2.5 py-1 rounded text-slate-400 hover:text-white font-semibold transition shrink-0">T5</button>
-            <button data-day="T6" class="filter-day-btn px-2.5 py-1 rounded text-slate-400 hover:text-white font-semibold transition shrink-0">T6</button>
+            <button data-day="T2" class="filter-day-btn px-2.5 py-1 min-w-[32px] text-center rounded text-slate-400 hover:text-white font-semibold transition shrink-0">T2</button>
+            <button data-day="T3" class="filter-day-btn px-2.5 py-1 min-w-[32px] text-center rounded text-slate-400 hover:text-white font-semibold transition shrink-0">T3</button>
+            <button data-day="T4" class="filter-day-btn px-2.5 py-1 min-w-[32px] text-center rounded text-slate-400 hover:text-white font-semibold transition shrink-0">T4</button>
+            <button data-day="T5" class="filter-day-btn px-2.5 py-1 min-w-[32px] text-center rounded text-slate-400 hover:text-white font-semibold transition shrink-0">T5</button>
+            <button data-day="T6" class="filter-day-btn px-2.5 py-1 min-w-[32px] text-center rounded text-slate-400 hover:text-white font-semibold transition shrink-0">T6</button>
           </div>
 
           <!-- Secondary Filters Row on Mobile -->
-          <div class="grid grid-cols-2 sm:flex items-center gap-2 w-full sm:w-auto">
+          <div class="grid grid-cols-2 sm:flex items-center gap-2 w-full sm:w-auto shrink-0">
             <!-- Status Filter -->
             <select id="filterStatus" class="col-span-1 bg-slate-900 border border-slate-800 text-slate-300 rounded-lg px-2.5 py-1.5 focus:outline-none cursor-pointer text-xs">
               <option value="ALL">Mọi trạng thái</option>
