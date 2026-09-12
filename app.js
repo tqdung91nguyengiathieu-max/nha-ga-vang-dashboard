@@ -84,15 +84,39 @@ const DEFAULT_WEEKS = [
       { id: 14, day: 'T5 (03/09/2026)', date: '03/09/2026', time: '20:15', pair: 'XAU', type: 'SELL', entry: '4439', exit: '4436', status: 'ĐÃ ĐẠT TP', pips: 30, note: 'Done', tf: 'M1' },
       { id: 15, day: 'T6 (04/09/2026)', date: '04/09/2026', time: '21:30', pair: 'XAU', type: 'SELL', entry: '4479', exit: '4409', status: 'ĐÃ ĐẠT TP', pips: 700, note: 'Done', tf: 'M1' }
     ]
+  },
+  {
+    id: 'week_2026_09_02',
+    name: 'Tuần 2 Tháng 09 (07/09 - 11/09)',
+    month: '09/2026',
+    orders: [
+      { id: 1, day: 'T2 (07/09/2026)', date: '07/09/2026', time: '09:30', pair: 'XAU', type: 'SELL', entry: '4410', exit: '4387', status: 'ĐÃ ĐẠT TP', pips: 230, note: 'Done', tf: 'M1' },
+      { id: 2, day: 'T2 (07/09/2026)', date: '07/09/2026', time: '14:20', pair: 'XAU', type: 'SELL', entry: '4395', exit: '4402', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
+      { id: 3, day: 'T2 (07/09/2026)', date: '07/09/2026', time: '19:45', pair: 'XAU', type: 'SELL', entry: '4406', exit: '4413', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
+      { id: 4, day: 'T3 (08/09/2026)', date: '08/09/2026', time: '10:15', pair: 'XAU', type: 'BUY', entry: '4408', exit: '4401', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
+      { id: 5, day: 'T4 (09/09/2026)', date: '09/09/2026', time: '09:10', pair: 'XAU', type: 'BUY', entry: '4374', exit: '4381', status: 'ĐÃ ĐẠT TP', pips: 70, note: 'Done', tf: 'M1' },
+      { id: 6, day: 'T4 (09/09/2026)', date: '09/09/2026', time: '11:30', pair: 'XAU', type: 'BUY', entry: '4406', exit: '4404', status: 'ĐÃ SL', pips: -20, note: 'Dính SL', tf: 'M1' },
+      { id: 7, day: 'T4 (09/09/2026)', date: '09/09/2026', time: '15:20', pair: 'XAU', type: 'BUY', entry: '4410', exit: '4425', status: 'ĐÃ ĐẠT TP', pips: 150, note: 'Done', tf: 'M1' },
+      { id: 8, day: 'T4 (09/09/2026)', date: '09/09/2026', time: '20:15', pair: 'XAU', type: 'BUY', entry: '4408', exit: '4400', status: 'ĐÃ SL', pips: -80, note: 'Dính SL', tf: 'M1' },
+      { id: 9, day: 'T5 (10/09/2026)', date: '10/09/2026', time: '09:05', pair: 'XAU', type: 'BUY', entry: '4406', exit: '4417', status: 'ĐÃ ĐẠT TP', pips: 110, note: 'Done', tf: 'M1' },
+      { id: 10, day: 'T5 (10/09/2026)', date: '10/09/2026', time: '11:15', pair: 'XAU', type: 'BUY', entry: '4412', exit: '4428', status: 'ĐÃ ĐẠT TP', pips: 160, note: 'Done', tf: 'M1' },
+      { id: 11, day: 'T5 (10/09/2026)', date: '10/09/2026', time: '14:30', pair: 'XAU', type: 'BUY', entry: '4430', exit: '4450', status: 'ĐÃ ĐẠT TP', pips: 200, note: 'Done', tf: 'M1' },
+      { id: 12, day: 'T5 (10/09/2026)', date: '10/09/2026', time: '16:50', pair: 'XAU', type: 'BUY', entry: '4418', exit: '4428', status: 'ĐÃ ĐẠT TP', pips: 100, note: 'Done', tf: 'M1' },
+      { id: 13, day: 'T5 (10/09/2026)', date: '10/09/2026', time: '19:20', pair: 'XAU', type: 'BUY', entry: '4397', exit: '4397', status: 'HÒA BE', pips: 0, note: 'Hòa BE', tf: 'M1' },
+      { id: 14, day: 'T5 (10/09/2026)', date: '10/09/2026', time: '21:00', pair: 'XAU', type: 'BUY', entry: '4386', exit: '4380', status: 'ĐÃ SL', pips: -60, note: 'Dính SL', tf: 'M1' },
+      { id: 15, day: 'T6 (11/09/2026)', date: '11/09/2026', time: '10:00', pair: 'XAU', type: 'BUY', entry: '4321', exit: '4334', status: 'ĐÃ ĐẠT TP', pips: 130, note: 'Done', tf: 'M1' },
+      { id: 16, day: 'T6 (11/09/2026)', date: '11/09/2026', time: '14:40', pair: 'XAU', type: 'BUY', entry: '4315', exit: '4310', status: 'ĐÃ SL', pips: -50, note: 'Dính SL', tf: 'M1' },
+      { id: 17, day: 'T6 (11/09/2026)', date: '11/09/2026', time: '20:30', pair: 'XAU', type: 'BUY', entry: '4429', exit: '4450', status: 'ĐÃ ĐẠT TP', pips: 210, note: 'Done', tf: 'M1' }
+    ]
   }
 ];
 
-const STORAGE_KEY = 'NHA_GA_VANG_DATA_4W_FULL';
+const STORAGE_KEY = 'NHA_GA_VANG_DATA_5W_FULL';
 
 // 2. STATE
 let state = {
   weeks: [],
-  currentWeekId: 'week_2026_09_01', // Mặc định mở Tuần 1 Tháng 9 mới nhất
+  currentWeekId: 'week_2026_09_02', // Mặc định mở Tuần 2 Tháng 9 mới nhất
   filterDay: 'ALL',
   filterStatus: 'ALL',
   filterType: 'ALL',
@@ -102,7 +126,15 @@ let state = {
 // 3. STORAGE
 function loadData() {
   // Tự động dọn dẹp các cache dữ liệu cũ trước đó để nạp dữ liệu chuẩn mới
-  ['NHA_GA_VANG_DATA_V1', 'NHA_GA_VANG_DATA_V2', 'NHA_GA_VANG_DATA_AUG_2026', 'NHA_GA_VANG_DATA_AUG_2026_W2', 'NHA_GA_VANG_DATA_AUG_2026_W3', 'nhagavang_trades_v1'].forEach(k => {
+  [
+    'NHA_GA_VANG_DATA_V1',
+    'NHA_GA_VANG_DATA_V2',
+    'NHA_GA_VANG_DATA_AUG_2026',
+    'NHA_GA_VANG_DATA_AUG_2026_W2',
+    'NHA_GA_VANG_DATA_AUG_2026_W3',
+    'nhagavang_trades_v1',
+    'NHA_GA_VANG_DATA_4W_FULL'
+  ].forEach(k => {
     try { localStorage.removeItem(k); } catch (e) {}
   });
 
@@ -118,7 +150,7 @@ function loadData() {
     saveData();
   }
   if (!state.weeks.find(w => w.id === state.currentWeekId)) {
-    state.currentWeekId = state.weeks[0]?.id || '';
+    state.currentWeekId = state.weeks[state.weeks.length - 1]?.id || state.weeks[0]?.id || '';
   }
 }
 
@@ -166,6 +198,7 @@ function renderTable() {
     if (state.filterDay !== 'ALL' && !order.day.includes(state.filterDay)) return false;
     if (state.filterStatus === 'TP' && !order.status.toUpperCase().includes('TP')) return false;
     if (state.filterStatus === 'SL' && !order.status.toUpperCase().includes('SL')) return false;
+    if (state.filterStatus === 'BE' && !order.status.toUpperCase().includes('BE') && !order.status.toUpperCase().includes('HÒA')) return false;
     if (state.filterType === 'BUY' && !order.type.toUpperCase().includes('BUY')) return false;
     if (state.filterType === 'SELL' && !order.type.toUpperCase().includes('SELL')) return false;
     if (state.searchQuery) {
@@ -285,7 +318,7 @@ function updateStats() {
 
   document.getElementById('kpiTotalPips').innerText = `${totalPips > 0 ? '+' : ''}${totalPips.toLocaleString()}`;
   document.getElementById('kpiWinRate').innerText = `${winRate}%`;
-  document.getElementById('kpiWinRateDetail').innerText = `${tpCount} TP • ${slCount} SL`;
+  document.getElementById('kpiWinRateDetail').innerText = beCount > 0 ? `${tpCount} TP • ${beCount} Hòa • ${slCount} SL` : `${tpCount} TP • ${slCount} SL`;
   document.getElementById('kpiTotalTrades').innerText = `${totalOrders} Lệnh`;
   
   // Calculate average profit per trade
@@ -549,21 +582,25 @@ window.openMarketingModal = function() {
   let totalPips = 0;
   let tpCount = 0;
   let slCount = 0;
+  let beCount = 0;
 
   week.orders.forEach(o => {
     totalPips += Number(o.pips) || 0;
     const s = (o.status || '').toUpperCase();
     if (s.includes('TP')) tpCount++;
     else if (s.includes('SL')) slCount++;
+    else beCount++;
   });
 
   const totalOrders = week.orders.length;
-  const winRate = totalOrders > 0 ? ((tpCount / totalOrders) * 100).toFixed(1) : '0.0';
+  const winRate = totalOrders > 0 ? (((tpCount + beCount) / totalOrders) * 100).toFixed(1) : '0.0';
 
   document.getElementById('shareWeekTitle').innerText = week.name;
   document.getElementById('shareTotalPips').innerText = `${totalPips > 0 ? '+' : ''}${totalPips.toLocaleString()} PIPS`;
   document.getElementById('shareWinRate').innerText = `${winRate}%`;
-  document.getElementById('shareTradesSummary').innerText = `${totalOrders} LỆNH (${tpCount} TP • ${slCount} SL)`;
+  document.getElementById('shareTradesSummary').innerText = beCount > 0
+    ? `${totalOrders} LỆNH (${tpCount} TP • ${beCount} Hòa • ${slCount} SL)`
+    : `${totalOrders} LỆNH (${tpCount} TP • ${slCount} SL)`;
 
   const qrContainer = document.getElementById('shareQRCode');
   qrContainer.innerHTML = '';
