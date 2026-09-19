@@ -108,15 +108,38 @@ const DEFAULT_WEEKS = [
       { id: 16, day: 'T6 (11/09/2026)', date: '11/09/2026', time: '14:40', pair: 'XAU', type: 'BUY', entry: '4315', exit: '4310', status: 'ĐÃ SL', pips: -50, note: 'Dính SL', tf: 'M1' },
       { id: 17, day: 'T6 (11/09/2026)', date: '11/09/2026', time: '20:30', pair: 'XAU', type: 'BUY', entry: '4429', exit: '4450', status: 'ĐÃ ĐẠT TP', pips: 210, note: 'Done', tf: 'M1' }
     ]
+  },
+  {
+    id: 'week_2026_09_03',
+    name: 'Tuần 3 Tháng 09 (14/09 - 18/09)',
+    month: '09/2026',
+    orders: [
+      { id: 1, day: 'T2 (14/09/2026)', date: '14/09/2026', time: '09:15', pair: 'XAU', type: 'BUY LIMIT', entry: '4343', exit: '4293', status: 'ĐÃ SL', pips: -50, note: 'Dính SL', tf: 'M1' },
+      { id: 2, day: 'T2 (14/09/2026)', date: '14/09/2026', time: '11:45', pair: 'XAU', type: 'SELL LIMIT', entry: '4335', exit: '4085', status: 'ĐÃ ĐẠT TP', pips: 250, note: 'Done', tf: 'M1' },
+      { id: 3, day: 'T2 (14/09/2026)', date: '14/09/2026', time: '15:20', pair: 'XAU', type: 'SELL LIMIT', entry: '4334', exit: '4234', status: 'ĐÃ ĐẠT TP', pips: 100, note: 'Done', tf: 'M1' },
+      { id: 4, day: 'T2 (14/09/2026)', date: '14/09/2026', time: '20:10', pair: 'XAU', type: 'BUY LIMIT', entry: '4282', exit: '4212', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
+      { id: 5, day: 'T3 (15/09/2026)', date: '15/09/2026', time: '10:30', pair: 'XAU', type: 'BUY LIMIT', entry: '4297', exit: '4227', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
+      { id: 6, day: 'T3 (15/09/2026)', date: '15/09/2026', time: '16:00', pair: 'XAU', type: 'SELL LIMIT', entry: '4284', exit: '4154', status: 'ĐÃ ĐẠT TP', pips: 130, note: 'Done', tf: 'M1' },
+      { id: 7, day: 'T4 (16/09/2026)', date: '16/09/2026', time: '14:15', pair: 'XAU', type: 'BUY LIMIT', entry: '4325', exit: '4425', status: 'ĐÃ ĐẠT TP', pips: 100, note: 'Done', tf: 'M1' },
+      { id: 8, day: 'T5 (17/09/2026)', date: '17/09/2026', time: '09:20', pair: 'XAU', type: 'SELL LIMIT', entry: '4315', exit: '4145', status: 'ĐÃ ĐẠT TP', pips: 170, note: 'Done', tf: 'M1' },
+      { id: 9, day: 'T5 (17/09/2026)', date: '17/09/2026', time: '14:40', pair: 'XAU', type: 'SELL LIMIT', entry: '4286', exit: '4346', status: 'ĐÃ SL', pips: -60, note: 'Dính SL', tf: 'M1' },
+      { id: 10, day: 'T5 (17/09/2026)', date: '17/09/2026', time: '19:30', pair: 'XAU', type: 'SELL LIMIT', entry: '4295', exit: '4175', status: 'ĐÃ ĐẠT TP', pips: 120, note: 'Done', tf: 'M1' },
+      { id: 11, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '08:50', pair: 'XAU', type: 'BUY LIMIT', entry: '4352', exit: '4412', status: 'ĐÃ SL', pips: -60, note: 'Dính SL', tf: 'M1' },
+      { id: 12, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '11:10', pair: 'XAU', type: 'SELL LIMIT', entry: '4350', exit: '4200', status: 'ĐÃ ĐẠT TP', pips: 150, note: 'Done', tf: 'M1' },
+      { id: 13, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '13:45', pair: 'XAU', type: 'BUY LIMIT', entry: '4353', exit: '4473', status: 'ĐÃ ĐẠT TP', pips: 120, note: 'Done', tf: 'M1' },
+      { id: 14, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '16:15', pair: 'XAU', type: 'SELL LIMIT', entry: '4375', exit: '4295', status: 'ĐÃ ĐẠT TP', pips: 80, note: 'Done', tf: 'M1' },
+      { id: 15, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '19:00', pair: 'XAU', type: 'BUY LIMIT', entry: '4373', exit: '4453', status: 'ĐÃ ĐẠT TP', pips: 80, note: 'Done', tf: 'M1' },
+      { id: 16, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '21:30', pair: 'XAU', type: 'SELL LIMIT', entry: '4376', exit: '4176', status: 'ĐÃ ĐẠT TP', pips: 200, note: 'Done', tf: 'M1' }
+    ]
   }
 ];
 
-const STORAGE_KEY = 'NHA_GA_VANG_DATA_5W_FULL';
+const STORAGE_KEY = 'NHA_GA_VANG_DATA_6W_FULL';
 
 // 2. STATE
 let state = {
   weeks: [],
-  currentWeekId: 'week_2026_09_02', // Mặc định mở Tuần 2 Tháng 9 mới nhất
+  currentWeekId: 'week_2026_09_03', // Mặc định mở Tuần 3 Tháng 9 mới nhất
   filterDay: 'ALL',
   filterStatus: 'ALL',
   filterType: 'ALL',
@@ -133,7 +156,8 @@ function loadData() {
     'NHA_GA_VANG_DATA_AUG_2026_W2',
     'NHA_GA_VANG_DATA_AUG_2026_W3',
     'nhagavang_trades_v1',
-    'NHA_GA_VANG_DATA_4W_FULL'
+    'NHA_GA_VANG_DATA_4W_FULL',
+    'NHA_GA_VANG_DATA_5W_FULL'
   ].forEach(k => {
     try { localStorage.removeItem(k); } catch (e) {}
   });
@@ -165,11 +189,11 @@ function getCurrentWeek() {
 // 4. BADGES
 function getOrderTypeBadge(type) {
   const t = (type || '').trim().toUpperCase();
-  if (t === 'BUY' || t.includes('BUY')) {
-    return '<span class="table-pill pill-buy">BUY</span>';
+  if (t.includes('BUY')) {
+    return `<span class="table-pill pill-buy">${t}</span>`;
   }
-  if (t === 'SELL' || t.includes('SELL')) {
-    return '<span class="table-pill pill-sell">SELL</span>';
+  if (t.includes('SELL')) {
+    return `<span class="table-pill pill-sell">${t}</span>`;
   }
   return `<span class="table-pill bg-slate-800 text-slate-300 border border-slate-700">${t}</span>`;
 }
