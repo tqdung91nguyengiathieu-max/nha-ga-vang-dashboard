@@ -114,27 +114,27 @@ const DEFAULT_WEEKS = [
     name: 'Tuần 3 Tháng 09 (14/09 - 18/09)',
     month: '09/2026',
     orders: [
-      { id: 1, day: 'T2 (14/09/2026)', date: '14/09/2026', time: '09:15', pair: 'XAU', type: 'BUY LIMIT', entry: '4343', exit: '4293', status: 'ĐÃ SL', pips: -50, note: 'Dính SL', tf: 'M1' },
-      { id: 2, day: 'T2 (14/09/2026)', date: '14/09/2026', time: '11:45', pair: 'XAU', type: 'SELL LIMIT', entry: '4335', exit: '4085', status: 'ĐÃ ĐẠT TP', pips: 250, note: 'Done', tf: 'M1' },
-      { id: 3, day: 'T2 (14/09/2026)', date: '14/09/2026', time: '15:20', pair: 'XAU', type: 'SELL LIMIT', entry: '4334', exit: '4234', status: 'ĐÃ ĐẠT TP', pips: 100, note: 'Done', tf: 'M1' },
-      { id: 4, day: 'T2 (14/09/2026)', date: '14/09/2026', time: '20:10', pair: 'XAU', type: 'BUY LIMIT', entry: '4282', exit: '4212', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
-      { id: 5, day: 'T3 (15/09/2026)', date: '15/09/2026', time: '10:30', pair: 'XAU', type: 'BUY LIMIT', entry: '4297', exit: '4227', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
-      { id: 6, day: 'T3 (15/09/2026)', date: '15/09/2026', time: '16:00', pair: 'XAU', type: 'SELL LIMIT', entry: '4284', exit: '4154', status: 'ĐÃ ĐẠT TP', pips: 130, note: 'Done', tf: 'M1' },
-      { id: 7, day: 'T4 (16/09/2026)', date: '16/09/2026', time: '14:15', pair: 'XAU', type: 'BUY LIMIT', entry: '4325', exit: '4425', status: 'ĐÃ ĐẠT TP', pips: 100, note: 'Done', tf: 'M1' },
-      { id: 8, day: 'T5 (17/09/2026)', date: '17/09/2026', time: '09:20', pair: 'XAU', type: 'SELL LIMIT', entry: '4315', exit: '4145', status: 'ĐÃ ĐẠT TP', pips: 170, note: 'Done', tf: 'M1' },
-      { id: 9, day: 'T5 (17/09/2026)', date: '17/09/2026', time: '14:40', pair: 'XAU', type: 'SELL LIMIT', entry: '4286', exit: '4346', status: 'ĐÃ SL', pips: -60, note: 'Dính SL', tf: 'M1' },
-      { id: 10, day: 'T5 (17/09/2026)', date: '17/09/2026', time: '19:30', pair: 'XAU', type: 'SELL LIMIT', entry: '4295', exit: '4175', status: 'ĐÃ ĐẠT TP', pips: 120, note: 'Done', tf: 'M1' },
-      { id: 11, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '08:50', pair: 'XAU', type: 'BUY LIMIT', entry: '4352', exit: '4412', status: 'ĐÃ SL', pips: -60, note: 'Dính SL', tf: 'M1' },
-      { id: 12, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '11:10', pair: 'XAU', type: 'SELL LIMIT', entry: '4350', exit: '4200', status: 'ĐÃ ĐẠT TP', pips: 150, note: 'Done', tf: 'M1' },
-      { id: 13, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '13:45', pair: 'XAU', type: 'BUY LIMIT', entry: '4353', exit: '4473', status: 'ĐÃ ĐẠT TP', pips: 120, note: 'Done', tf: 'M1' },
-      { id: 14, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '16:15', pair: 'XAU', type: 'SELL LIMIT', entry: '4375', exit: '4295', status: 'ĐÃ ĐẠT TP', pips: 80, note: 'Done', tf: 'M1' },
-      { id: 15, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '19:00', pair: 'XAU', type: 'BUY LIMIT', entry: '4373', exit: '4453', status: 'ĐÃ ĐẠT TP', pips: 80, note: 'Done', tf: 'M1' },
-      { id: 16, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '21:30', pair: 'XAU', type: 'SELL LIMIT', entry: '4376', exit: '4176', status: 'ĐÃ ĐẠT TP', pips: 200, note: 'Done', tf: 'M1' }
+      { id: 1, day: 'T2 (14/09/2026)', date: '14/09/2026', time: '09:15', pair: 'XAU', type: 'BUY LIMIT', entry: '4343', exit: '4338', status: 'ĐÃ SL', pips: -50, note: 'Dính SL', tf: 'M1' },
+      { id: 2, day: 'T2 (14/09/2026)', date: '14/09/2026', time: '11:45', pair: 'XAU', type: 'SELL LIMIT', entry: '4335', exit: '4310', status: 'ĐÃ ĐẠT TP', pips: 250, note: 'Done', tf: 'M1' },
+      { id: 3, day: 'T2 (14/09/2026)', date: '14/09/2026', time: '15:20', pair: 'XAU', type: 'SELL LIMIT', entry: '4334', exit: '4324', status: 'ĐÃ ĐẠT TP', pips: 100, note: 'Done', tf: 'M1' },
+      { id: 4, day: 'T2 (14/09/2026)', date: '14/09/2026', time: '20:10', pair: 'XAU', type: 'BUY LIMIT', entry: '4282', exit: '4275', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
+      { id: 5, day: 'T3 (15/09/2026)', date: '15/09/2026', time: '10:30', pair: 'XAU', type: 'BUY LIMIT', entry: '4297', exit: '4290', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
+      { id: 6, day: 'T3 (15/09/2026)', date: '15/09/2026', time: '16:00', pair: 'XAU', type: 'SELL LIMIT', entry: '4284', exit: '4271', status: 'ĐÃ ĐẠT TP', pips: 130, note: 'Done', tf: 'M1' },
+      { id: 7, day: 'T4 (16/09/2026)', date: '16/09/2026', time: '14:15', pair: 'XAU', type: 'BUY LIMIT', entry: '4325', exit: '4335', status: 'ĐÃ ĐẠT TP', pips: 100, note: 'Done', tf: 'M1' },
+      { id: 8, day: 'T5 (17/09/2026)', date: '17/09/2026', time: '09:20', pair: 'XAU', type: 'SELL LIMIT', entry: '4315', exit: '4298', status: 'ĐÃ ĐẠT TP', pips: 170, note: 'Done', tf: 'M1' },
+      { id: 9, day: 'T5 (17/09/2026)', date: '17/09/2026', time: '14:40', pair: 'XAU', type: 'SELL LIMIT', entry: '4286', exit: '4292', status: 'ĐÃ SL', pips: -60, note: 'Dính SL', tf: 'M1' },
+      { id: 10, day: 'T5 (17/09/2026)', date: '17/09/2026', time: '19:30', pair: 'XAU', type: 'SELL LIMIT', entry: '4295', exit: '4283', status: 'ĐÃ ĐẠT TP', pips: 120, note: 'Done', tf: 'M1' },
+      { id: 11, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '08:50', pair: 'XAU', type: 'BUY LIMIT', entry: '4352', exit: '4346', status: 'ĐÃ SL', pips: -60, note: 'Dính SL', tf: 'M1' },
+      { id: 12, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '11:10', pair: 'XAU', type: 'SELL LIMIT', entry: '4350', exit: '4335', status: 'ĐÃ ĐẠT TP', pips: 150, note: 'Done', tf: 'M1' },
+      { id: 13, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '13:45', pair: 'XAU', type: 'BUY LIMIT', entry: '4353', exit: '4365', status: 'ĐÃ ĐẠT TP', pips: 120, note: 'Done', tf: 'M1' },
+      { id: 14, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '16:15', pair: 'XAU', type: 'SELL LIMIT', entry: '4375', exit: '4367', status: 'ĐÃ ĐẠT TP', pips: 80, note: 'Done', tf: 'M1' },
+      { id: 15, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '19:00', pair: 'XAU', type: 'BUY LIMIT', entry: '4373', exit: '4381', status: 'ĐÃ ĐẠT TP', pips: 80, note: 'Done', tf: 'M1' },
+      { id: 16, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '21:30', pair: 'XAU', type: 'SELL LIMIT', entry: '4376', exit: '4356', status: 'ĐÃ ĐẠT TP', pips: 200, note: 'Done', tf: 'M1' }
     ]
   }
 ];
 
-const STORAGE_KEY = 'NHA_GA_VANG_DATA_6W_FULL';
+const STORAGE_KEY = 'NHA_GA_VANG_DATA_6W_V2';
 
 // 2. STATE
 let state = {
@@ -157,7 +157,8 @@ function loadData() {
     'NHA_GA_VANG_DATA_AUG_2026_W3',
     'nhagavang_trades_v1',
     'NHA_GA_VANG_DATA_4W_FULL',
-    'NHA_GA_VANG_DATA_5W_FULL'
+    'NHA_GA_VANG_DATA_5W_FULL',
+    'NHA_GA_VANG_DATA_6W_FULL'
   ].forEach(k => {
     try { localStorage.removeItem(k); } catch (e) {}
   });
