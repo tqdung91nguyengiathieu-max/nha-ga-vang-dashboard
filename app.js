@@ -131,15 +131,38 @@ const DEFAULT_WEEKS = [
       { id: 15, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '19:00', pair: 'XAU', type: 'BUY LIMIT', entry: '4373', exit: '4381', status: 'ĐÃ ĐẠT TP', pips: 80, note: 'Done', tf: 'M1' },
       { id: 16, day: 'T6 (18/09/2026)', date: '18/09/2026', time: '21:30', pair: 'XAU', type: 'SELL LIMIT', entry: '4376', exit: '4356', status: 'ĐÃ ĐẠT TP', pips: 200, note: 'Done', tf: 'M1' }
     ]
+  },
+  {
+    id: 'week_2026_09_04',
+    name: 'Tuần 4 Tháng 09 (21/09 - 25/09)',
+    month: '09/2026',
+    orders: [
+      { id: 1, day: 'T2 (21/09/2026)', date: '21/09/2026', time: '09:00', pair: 'XAU', type: 'BUY', entry: '4357', exit: '4364', status: 'ĐÃ ĐẠT TP', pips: 70, note: 'Done (có dời SL hòa)', tf: 'M1' },
+      { id: 2, day: 'T2 (21/09/2026)', date: '21/09/2026', time: '11:15', pair: 'XAU', type: 'BUY', entry: '4351', exit: '4349', status: 'ĐÃ SL', pips: -20, note: 'Dính SL', tf: 'M1' },
+      { id: 3, day: 'T2 (21/09/2026)', date: '21/09/2026', time: '14:30', pair: 'XAU', type: 'BUY', entry: '4335', exit: '4343', status: 'ĐÃ ĐẠT TP', pips: 80, note: 'Done', tf: 'M1' },
+      { id: 4, day: 'T2 (21/09/2026)', date: '21/09/2026', time: '16:45', pair: 'XAU', type: 'SELL', entry: '4347', exit: '4349', status: 'ĐÃ SL', pips: -20, note: 'Dính SL', tf: 'M1' },
+      { id: 5, day: 'T3 (22/09/2026)', date: '22/09/2026', time: '09:10', pair: 'XAU', type: 'BUY', entry: '4351', exit: '4345', status: 'ĐÃ SL', pips: -60, note: 'Dính SL', tf: 'M1' },
+      { id: 6, day: 'T3 (22/09/2026)', date: '22/09/2026', time: '11:20', pair: 'XAU', type: 'BUY', entry: '4318', exit: '4323', status: 'ĐÃ ĐẠT TP', pips: 50, note: 'Done (chốt sau về hòa)', tf: 'M1' },
+      { id: 7, day: 'T3 (22/09/2026)', date: '22/09/2026', time: '13:40', pair: 'XAU', type: 'BUY', entry: '4303', exit: '4313', status: 'ĐÃ ĐẠT TP', pips: 100, note: 'Done', tf: 'M1' },
+      { id: 8, day: 'T3 (22/09/2026)', date: '22/09/2026', time: '15:50', pair: 'XAU', type: 'BUY', entry: '4332', exit: '4342', status: 'ĐÃ ĐẠT TP', pips: 100, note: 'Done', tf: 'M1' },
+      { id: 9, day: 'T3 (22/09/2026)', date: '22/09/2026', time: '19:15', pair: 'XAU', type: 'BUY', entry: '4327', exit: '4320', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
+      { id: 10, day: 'T4 (23/09/2026)', date: '23/09/2026', time: '10:30', pair: 'XAU', type: 'BUY', entry: '4348', exit: '4338', status: 'ĐÃ SL', pips: -100, note: 'Dính SL', tf: 'M1' },
+      { id: 11, day: 'T4 (23/09/2026)', date: '23/09/2026', time: '14:20', pair: 'XAU', type: 'BUY', entry: '4318', exit: '4313', status: 'ĐÃ SL', pips: -50, note: 'Dính SL', tf: 'M1' },
+      { id: 12, day: 'T5 (24/09/2026)', date: '24/09/2026', time: '10:15', pair: 'XAU', type: 'BUY', entry: '4274', exit: '4267', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
+      { id: 13, day: 'T6 (25/09/2026)', date: '25/09/2026', time: '09:00', pair: 'XAU', type: 'BUY', entry: '4278', exit: '4270', status: 'ĐÃ SL', pips: -80, note: 'Dính SL', tf: 'M1' },
+      { id: 14, day: 'T6 (25/09/2026)', date: '25/09/2026', time: '11:30', pair: 'XAU', type: 'BUY', entry: '4291', exit: '4311', status: 'ĐÃ ĐẠT TP', pips: 200, note: 'Done', tf: 'M1' },
+      { id: 15, day: 'T6 (25/09/2026)', date: '25/09/2026', time: '14:45', pair: 'XAU', type: 'BUY', entry: '4300', exit: '4293', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
+      { id: 16, day: 'T6 (25/09/2026)', date: '25/09/2026', time: '16:30', pair: 'XAU', type: 'SELL', entry: '4278', exit: '4278', status: 'HÒA BE', pips: 0, note: 'Chốt hoà', tf: 'M1' }
+    ]
   }
 ];
 
-const STORAGE_KEY = 'NHA_GA_VANG_DATA_6W_V2';
+const STORAGE_KEY = 'NHA_GA_VANG_DATA_7W_FULL';
 
 // 2. STATE
 let state = {
   weeks: [],
-  currentWeekId: 'week_2026_09_03', // Mặc định mở Tuần 3 Tháng 9 mới nhất
+  currentWeekId: 'week_2026_09_04', // Mặc định mở Tuần 4 Tháng 9 mới nhất
   filterDay: 'ALL',
   filterStatus: 'ALL',
   filterType: 'ALL',
@@ -158,7 +181,8 @@ function loadData() {
     'nhagavang_trades_v1',
     'NHA_GA_VANG_DATA_4W_FULL',
     'NHA_GA_VANG_DATA_5W_FULL',
-    'NHA_GA_VANG_DATA_6W_FULL'
+    'NHA_GA_VANG_DATA_6W_FULL',
+    'NHA_GA_VANG_DATA_6W_V2'
   ].forEach(k => {
     try { localStorage.removeItem(k); } catch (e) {}
   });
