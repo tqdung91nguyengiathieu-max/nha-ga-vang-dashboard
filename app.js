@@ -194,15 +194,27 @@ const DEFAULT_WEEKS = [
       { id: 7, day: 'T4 (07/10/2026)', date: '07/10/2026', time: '15:40', pair: 'XAU', type: 'SELL', entry: '4138', exit: '4130', status: 'ĐÃ ĐẠT TP', pips: 80, note: 'Done', tf: 'M1' },
       { id: 8, day: 'T5 (08/10/2026)', date: '08/10/2026', time: '14:15', pair: 'XAU', type: 'BUY', entry: '4183', exit: '4176', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' }
     ]
+  },
+  {
+    id: 'week_2026_10_03',
+    name: 'Tuần 3 Tháng 10 (12/10 - 16/10)',
+    month: '10/2026',
+    orders: [
+      { id: 1, day: 'T2 (12/10/2026)', date: '12/10/2026', time: '09:15', pair: 'XAU', type: 'SELL', entry: '4215', exit: '4205', status: 'ĐÃ ĐẠT TP', pips: 100, note: 'Done', tf: 'M1' },
+      { id: 2, day: 'T2 (12/10/2026)', date: '12/10/2026', time: '11:30', pair: 'XAU', type: 'SELL', entry: '4173', exit: '4169', status: 'ĐÃ ĐẠT TP', pips: 40, note: 'Done', tf: 'M1' },
+      { id: 3, day: 'T2 (12/10/2026)', date: '12/10/2026', time: '14:20', pair: 'XAU', type: 'SELL', entry: '4192', exit: '4152', status: 'ĐÃ ĐẠT TP', pips: 420, note: 'Done', tf: 'M1' },
+      { id: 4, day: 'T2 (12/10/2026)', date: '12/10/2026', time: '16:45', pair: 'XAU', type: 'BUY', entry: '4202', exit: '4195', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
+      { id: 5, day: 'T2 (12/10/2026)', date: '12/10/2026', time: '19:30', pair: 'XAU', type: 'BUY', entry: '4167', exit: '4171', status: 'ĐÃ ĐẠT TP', pips: 40, note: 'Done', tf: 'M1' }
+    ]
   }
 ];
 
-const STORAGE_KEY = 'NHA_GA_VANG_DATA_9W_FULL';
+const STORAGE_KEY = 'NHA_GA_VANG_DATA_10W_FULL';
 
 // 2. STATE
 let state = {
   weeks: [],
-  currentWeekId: 'week_2026_10_02', // Mặc định mở Tuần 2 Tháng 10 mới nhất
+  currentWeekId: 'week_2026_10_03', // Mặc định mở Tuần 3 Tháng 10 mới nhất
   filterDay: 'ALL',
   filterStatus: 'ALL',
   filterType: 'ALL',
@@ -224,7 +236,8 @@ function loadData() {
     'NHA_GA_VANG_DATA_6W_FULL',
     'NHA_GA_VANG_DATA_6W_V2',
     'NHA_GA_VANG_DATA_7W_FULL',
-    'NHA_GA_VANG_DATA_8W_FULL'
+    'NHA_GA_VANG_DATA_8W_FULL',
+    'NHA_GA_VANG_DATA_9W_FULL'
   ].forEach(k => {
     try { localStorage.removeItem(k); } catch (e) {}
   });
