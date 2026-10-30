@@ -206,15 +206,30 @@ const DEFAULT_WEEKS = [
       { id: 4, day: 'T2 (12/10/2026)', date: '12/10/2026', time: '16:45', pair: 'XAU', type: 'BUY', entry: '4202', exit: '4195', status: 'ĐÃ SL', pips: -70, note: 'Dính SL', tf: 'M1' },
       { id: 5, day: 'T2 (12/10/2026)', date: '12/10/2026', time: '19:30', pair: 'XAU', type: 'BUY', entry: '4167', exit: '4171', status: 'ĐÃ ĐẠT TP', pips: 40, note: 'Done', tf: 'M1' }
     ]
+  },
+  {
+    id: 'week_2026_10_04',
+    name: 'Tuần 4 Tháng 10 (19/10 - 23/10)',
+    month: '10/2026',
+    orders: [
+      { id: 1, day: 'T2 (19/10/2026)', date: '19/10/2026', time: '09:00', pair: 'XAU', type: 'BUY', entry: '4165', exit: '4175', status: 'ĐÃ ĐẠT TP', pips: 100, note: 'Có dịch SL dương', tf: 'M1' },
+      { id: 2, day: 'T4 (21/10/2026)', date: '21/10/2026', time: '10:15', pair: 'XAU', type: 'BUY', entry: '4125', exit: '4139', status: 'ĐÃ ĐẠT TP', pips: 140, note: 'Done', tf: 'M1' },
+      { id: 3, day: 'T5 (22/10/2026)', date: '22/10/2026', time: '09:30', pair: 'XAU', type: 'BUY', entry: '4092', exit: '4080', status: 'ĐÃ SL', pips: -120, note: 'Chạm SL', tf: 'M1' },
+      { id: 4, day: 'T5 (22/10/2026)', date: '22/10/2026', time: '13:40', pair: 'XAU', type: 'BUY', entry: '4086', exit: '4091', status: 'ĐÃ ĐẠT TP', pips: 50, note: 'Done', tf: 'M1' },
+      { id: 5, day: 'T5 (22/10/2026)', date: '22/10/2026', time: '16:50', pair: 'XAU', type: 'BUY', entry: '4046', exit: '4063', status: 'ĐÃ ĐẠT TP', pips: 170, note: 'Done', tf: 'M1' },
+      { id: 6, day: 'T6 (23/10/2026)', date: '23/10/2026', time: '09:15', pair: 'XAU', type: 'BUY', entry: '4001', exit: '3990', status: 'ĐÃ SL', pips: -110, note: 'Chạm SL', tf: 'M1' },
+      { id: 7, day: 'T6 (23/10/2026)', date: '23/10/2026', time: '11:20', pair: 'XAU', type: 'BUY', entry: '3996', exit: '3990', status: 'ĐÃ SL', pips: -60, note: 'Chạm SL', tf: 'M1' },
+      { id: 8, day: 'T6 (23/10/2026)', date: '23/10/2026', time: '15:30', pair: 'XAU', type: 'BUY', entry: '4004', exit: '4028', status: 'ĐÃ ĐẠT TP', pips: 240, note: 'Done', tf: 'M1' }
+    ]
   }
 ];
 
-const STORAGE_KEY = 'NHA_GA_VANG_DATA_10W_FULL';
+const STORAGE_KEY = 'NHA_GA_VANG_DATA_12W_FULL';
 
 // 2. STATE
 let state = {
   weeks: [],
-  currentWeekId: 'week_2026_10_03', // Mặc định mở Tuần 3 Tháng 10 mới nhất
+  currentWeekId: 'week_2026_10_04', // Mặc định mở Tuần 4 Tháng 10 mới nhất
   filterDay: 'ALL',
   filterStatus: 'ALL',
   filterType: 'ALL',
@@ -237,7 +252,9 @@ function loadData() {
     'NHA_GA_VANG_DATA_6W_V2',
     'NHA_GA_VANG_DATA_7W_FULL',
     'NHA_GA_VANG_DATA_8W_FULL',
-    'NHA_GA_VANG_DATA_9W_FULL'
+    'NHA_GA_VANG_DATA_9W_FULL',
+    'NHA_GA_VANG_DATA_10W_FULL',
+    'NHA_GA_VANG_DATA_11W_FULL'
   ].forEach(k => {
     try { localStorage.removeItem(k); } catch (e) {}
   });
