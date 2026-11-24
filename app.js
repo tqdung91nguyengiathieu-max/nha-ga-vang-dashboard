@@ -272,15 +272,42 @@ const DEFAULT_WEEKS = [
       { id: 10, day: 'T6 (13/11/2026)', date: '13/11/2026', time: '13:40', pair: 'XAU', type: 'BUY', entry: '3910', exit: '3920', status: 'ĐÃ ĐẠT TP', pips: 100, note: 'Done', tf: 'M1' },
       { id: 11, day: 'T6 (13/11/2026)', date: '13/11/2026', time: '17:30', pair: 'XAU', type: 'SELL', entry: '3904', exit: '3881', status: 'ĐÃ ĐẠT TP', pips: 230, note: 'Done', tf: 'M1' }
     ]
+  },
+  {
+    id: 'week_2026_11_03',
+    name: 'Tuần 3 Tháng 11 (16/11 - 20/11)',
+    month: '11/2026',
+    orders: [
+      { id: 1, day: 'T2 (16/11/2026)', date: '16/11/2026', time: '09:00', pair: 'XAU', type: 'SELL', entry: '3876', exit: '3855', status: 'ĐÃ ĐẠT TP', pips: 210, note: 'Done', tf: 'M1' },
+      { id: 2, day: 'T2 (16/11/2026)', date: '16/11/2026', time: '13:30', pair: 'XAU', type: 'BUY', entry: '3845', exit: '3885', status: 'ĐÃ ĐẠT TP', pips: 400, note: 'Done (Sóng lớn)', tf: 'M1' },
+      { id: 3, day: 'T2 (16/11/2026)', date: '16/11/2026', time: '17:15', pair: 'XAU', type: 'SELL', entry: '3886', exit: '3850', status: 'ĐÃ ĐẠT TP', pips: 360, note: 'Done (Sóng lớn)', tf: 'M1' },
+      { id: 4, day: 'T3 (17/11/2026)', date: '17/11/2026', time: '09:10', pair: 'XAU', type: 'BUY', entry: '3847', exit: '3850', status: 'ĐÃ ĐẠT TP', pips: 30, note: 'Done', tf: 'M1' },
+      { id: 5, day: 'T3 (17/11/2026)', date: '17/11/2026', time: '11:20', pair: 'XAU', type: 'SELL', entry: '3877', exit: '3864', status: 'ĐÃ ĐẠT TP', pips: 130, note: 'Done', tf: 'M1' },
+      { id: 6, day: 'T3 (17/11/2026)', date: '17/11/2026', time: '14:00', pair: 'XAU', type: 'BUY', entry: '3871', exit: '3879', status: 'ĐÃ ĐẠT TP', pips: 80, note: 'Done', tf: 'M1' },
+      { id: 7, day: 'T3 (17/11/2026)', date: '17/11/2026', time: '16:15', pair: 'XAU', type: 'BUY', entry: '3853', exit: '3870', status: 'ĐÃ ĐẠT TP', pips: 170, note: 'Done', tf: 'M1' },
+      { id: 8, day: 'T3 (17/11/2026)', date: '17/11/2026', time: '18:30', pair: 'XAU', type: 'BUY', entry: '3863', exit: '3870', status: 'ĐÃ ĐẠT TP', pips: 70, note: 'Done', tf: 'M1' },
+      { id: 9, day: 'T4 (18/11/2026)', date: '18/11/2026', time: '09:30', pair: 'XAU', type: 'BUY', entry: '3790', exit: '3797', status: 'ĐÃ ĐẠT TP', pips: 70, note: 'Done', tf: 'M1' },
+      { id: 10, day: 'T4 (18/11/2026)', date: '18/11/2026', time: '12:45', pair: 'XAU', type: 'BUY', entry: '3780', exit: '3797', status: 'ĐÃ ĐẠT TP', pips: 170, note: 'Done', tf: 'M1' },
+      { id: 11, day: 'T4 (18/11/2026)', date: '18/11/2026', time: '15:20', pair: 'XAU', type: 'BUY', entry: '3754', exit: '3761', status: 'ĐÃ ĐẠT TP', pips: 70, note: 'Done', tf: 'M1' },
+      { id: 12, day: 'T4 (18/11/2026)', date: '18/11/2026', time: '17:40', pair: 'XAU', type: 'BUY', entry: '3750', exit: '3746', status: 'ĐÃ SL', pips: -40, note: 'Dính SL', tf: 'M1' },
+      { id: 13, day: 'T5 (19/11/2026)', date: '19/11/2026', time: '09:15', pair: 'XAU', type: 'SELL', entry: '3744', exit: '3714', status: 'ĐÃ ĐẠT TP', pips: 300, note: 'Done (Sóng lớn)', tf: 'M1' },
+      { id: 14, day: 'T5 (19/11/2026)', date: '19/11/2026', time: '14:00', pair: 'XAU', type: 'BUY', entry: '3713', exit: '3726', status: 'ĐÃ ĐẠT TP', pips: 130, note: 'Done', tf: 'M1' },
+      { id: 15, day: 'T5 (19/11/2026)', date: '19/11/2026', time: '17:30', pair: 'XAU', type: 'BUY', entry: '3673', exit: '3690', status: 'ĐÃ ĐẠT TP', pips: 170, note: 'Done', tf: 'M1' },
+      { id: 16, day: 'T6 (20/11/2026)', date: '20/11/2026', time: '09:00', pair: 'XAU', type: 'BUY', entry: '3517', exit: '3556', status: 'ĐÃ ĐẠT TP', pips: 390, note: 'Done (Sóng lớn)', tf: 'M1' },
+      { id: 17, day: 'T6 (20/11/2026)', date: '20/11/2026', time: '11:30', pair: 'XAU', type: 'SELL', entry: '3547', exit: '3541', status: 'ĐÃ ĐẠT TP', pips: 60, note: 'Done', tf: 'M1' },
+      { id: 18, day: 'T6 (20/11/2026)', date: '20/11/2026', time: '14:15', pair: 'XAU', type: 'SELL', entry: '3552', exit: '3560', status: 'ĐÃ SL', pips: -80, note: 'Dính SL', tf: 'M1' },
+      { id: 19, day: 'T6 (20/11/2026)', date: '20/11/2026', time: '16:00', pair: 'XAU', type: 'BUY', entry: '3578', exit: '3570', status: 'ĐÃ SL', pips: -80, note: 'Dính SL', tf: 'M1' },
+      { id: 20, day: 'T6 (20/11/2026)', date: '20/11/2026', time: '18:45', pair: 'XAU', type: 'BUY', entry: '3556', exit: '3584', status: 'ĐÃ ĐẠT TP', pips: 280, note: 'Done (Sóng lớn)', tf: 'M1' }
+    ]
   }
 ];
 
-const STORAGE_KEY = 'NHA_GA_VANG_DATA_15W_FULL';
+const STORAGE_KEY = 'NHA_GA_VANG_DATA_16W_FULL';
 
 // 2. STATE
 let state = {
   weeks: [],
-  currentWeekId: 'week_2026_11_02', // Mặc định mở Tuần 2 Tháng 11 mới nhất
+  currentWeekId: 'week_2026_11_03', // Mặc định mở Tuần 3 Tháng 11 mới nhất
   filterDay: 'ALL',
   filterStatus: 'ALL',
   filterType: 'ALL',
@@ -308,7 +335,8 @@ function loadData() {
     'NHA_GA_VANG_DATA_11W_FULL',
     'NHA_GA_VANG_DATA_12W_FULL',
     'NHA_GA_VANG_DATA_13W_FULL',
-    'NHA_GA_VANG_DATA_14W_FULL'
+    'NHA_GA_VANG_DATA_14W_FULL',
+    'NHA_GA_VANG_DATA_15W_FULL'
   ].forEach(k => {
     try { localStorage.removeItem(k); } catch (e) {}
   });
